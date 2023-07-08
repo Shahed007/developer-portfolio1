@@ -31,7 +31,7 @@ input {
 }
 
 .section-description {
-  margin-top: 20px;
+  margin-top: 30px;
   color: #757575;
   text-align: center;
   font-size: 18px;
@@ -161,4 +161,9 @@ main {
 .info-description {
   color: #474747;
   font-weight: 800;
+}
+
+/* What I Do Section Styling */
+#what-i-do-description {
+  padding: 0 150px 30px 150px;
 }
