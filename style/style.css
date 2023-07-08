@@ -206,3 +206,8 @@ main section {
 .resume-item:not(:last-child) {
   border-bottom: 1px solid #d1d1d1;
 }
+
+.resume-container {
+  display: flex;
+  gap: 50;
+}
