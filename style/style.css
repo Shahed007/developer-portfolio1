@@ -26,6 +26,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
+  padding: 20px 0;
 }
 
 nav .nav-title {
@@ -54,4 +56,20 @@ nav li:not(:last-child) {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  padding: 30px 50px 30px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner .profle-pic {
+  width: 400px;
 }
