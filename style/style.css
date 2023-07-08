@@ -206,8 +206,40 @@ main section {
 .resume-item:not(:last-child) {
   border-bottom: 1px solid #d1d1d1;
 }
+.resume-item {
+  padding: 30px 0px;
+}
 
 .resume-container {
   display: flex;
-  gap: 50;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+.resume-item-title {
+  color: var(--dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-item-sub-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.resume-download-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
